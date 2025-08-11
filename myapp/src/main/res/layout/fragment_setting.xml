@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- العنوان -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="Setting Page"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- سويتش الصوت -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="تفعيل الصوت"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"/>
+
+            <Switch
+                android:id="@+id/switchSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <!-- سويتش الثيم -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="الوضع الداكن"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"/>
+
+            <Switch
+                android:id="@+id/switchTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <!-- زر إعدادات التنزيل -->
+        <Button
+            android:id="@+id/btnDownloadSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إعدادات التنزيل"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FF00D4"
+            android:textColor="@android:color/white"/>
+
+        <!-- زر معلومات التطبيق -->
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="معلومات التطبيق"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#00F0FF"
+            android:textColor="@android:color/white"/>
+
+        <!-- زر تغيير اللغة -->
+        <Button
+            android:id="@+id/btnChangeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تغيير اللغة"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#39FF14"
+            android:textColor="@android:color/white"/>
+
+        <!-- زر إدارة التخزين -->
+        <Button
+            android:id="@+id/btnManageStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إدارة التخزين"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FFA500"
+            android:textColor="@android:color/white"/>
+
+        <!-- زر مركز المساعدة -->
+        <Button
+            android:id="@+id/btnHelpCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مركز المساعدة"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#00CED1"
+            android:textColor="@android:color/white"/>
+
+        <!-- زر تقييم التطبيق -->
+        <Button
+            android:id="@+id/btnRateApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تقييم التطبيق"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#9370DB"
+            android:textColor="@android:color/white"/>
+
+        <!-- زر مشاركة التطبيق -->
+        <Button
+            android:id="@+id/btnShareApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="مشاركة التطبيق"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#FF69B4"
+            android:textColor="@android:color/white"/>
+
+        <!-- زر تسجيل الخروج -->
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تسجيل الخروج"
+            android:backgroundTint="#FF3B30"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

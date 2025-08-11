@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- عنوان الألبوم -->
+    <TextView
+        android:id="@+id/tvAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اسم الألبوم"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- عنوان الأغنية -->
+    <TextView
+        android:id="@+id/tvSongTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="عنوان الأغنية"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- زر تشغيل الأغنية -->
+    <Button
+        android:id="@+id/btnPlaySong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تشغيل" />
+
+</LinearLayout>

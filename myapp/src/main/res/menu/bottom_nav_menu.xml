@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/fragment_songs"
+        android:icon="@drawable/ic_music_note_line"
+        android:title="Songs" />
+
+    <item
+        android:id="@+id/fragment_album"
+        android:icon="@drawable/ic_album_line"
+        android:title="Albums" />
+
+    <item
+        android:id="@+id/fragment_setting"
+        android:icon="@drawable/ic_settings_line"
+        android:title="Settings" />
+
+</menu>

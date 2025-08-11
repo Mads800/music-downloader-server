@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_song">
+
+    <fragment
+        android:id="@+id/fragment_song"
+        android:name="com.example.musicdownloader.SongFragment"
+        android:label="Songs" />
+
+    <fragment
+        android:id="@+id/fragment_album"
+        android:name="com.example.musicdownloader.AlbumFragment"
+        android:label="Albums" />
+
+    <fragment
+        android:id="@+id/fragment_setting"
+        android:name="com.example.musicdownloader.SettingFragment"
+        android:label="Settings" />
+</navigation>

@@ -1,0 +1,24 @@
+<resources>
+    <color name="purple_start">#6A11CB</color>
+    <color name="pink_end">#FF6FD8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ripple_overlay">#1A000000</color> <!-- شفاف للRipple -->
+    <color name="nav_icon">#B3FFFFFF</color> <!-- أبيض شفاف للأيقونات -->
+    <color name="nav_icon_active">#FFFFFFFF</color> <!-- أبيض كامل للأيقونة المفعلة -->
+    <color name="nav_background">#121212</color> <!-- خلفية داكنة -->
+    <color name="nav_bg">#FF1C1C1C</color>
+    <color name="black">#000000</color>
+    <!-- ألوان افتراضية من Material Design -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+    <!-- ألوان زرقاء فاتحة -->
+    <color name="light_blue_900">#01579B</color>
+    <color name="light_blue_A400">#00B0FF</color>
+
+    <!-- لون ظل أسود شفاف -->
+    <color name="black_overlay">#66000000</color>
+    <color name="line_icon">#FF888888</color>
+
+</resources>
